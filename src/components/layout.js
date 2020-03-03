@@ -1,15 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { createGlobalStyle } from "styled-components"
-
-// import "./bootstrap.min.css"
-// import "./layout.css"
-// import "../sass/layout.scss"
+import Navbar from "../components/globals/navbar"
 
 const Layout = ({ children }) => {
   return (
     <>
       <GlobalStyle />
+      <Navbar />
       {children}
     </>
   )
