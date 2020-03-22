@@ -2,13 +2,17 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { HomeHeader } from "../utils"
+import { HomeHeader, Banner } from "../utils"
 import img from "../images/bcg/homeBcg.jpeg"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <HomeHeader img={img}>hello from home header</HomeHeader>
+    <HomeHeader img={img}>
+      <Banner title="eatery" subtitle="55 main street - Santa Monica, CA">
+
+      </Banner>
+    </HomeHeader>
   </Layout>
 )
 
