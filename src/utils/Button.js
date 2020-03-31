@@ -1,5 +1,6 @@
-import styled from 'styled-components'
-import {styles} from '../utils'
+import styled from "styled-components"
+import { styles } from "../utils"
+import { colors } from "./styles"
 
 const BannerButton = styled.button`
   display: block;
@@ -10,14 +11,23 @@ const BannerButton = styled.button`
   font-size: 1.5rem;
   letter-spacing: 0.5rem;
   font-weight: 700;
-  ${styles.border({color: `${styles.colors.mainWhite}`})};
+  ${styles.border({ color: `${styles.colors.mainWhite}` })};
   margin-bottom: 1rem;
   ${styles.transition({})};
-  &:hover{
+  &:hover {
     background: ${styles.colors.mainWhite};
     color: ${styles.colors.mainBlack};
     cursor: pointer;
   }
 `
 
-export {BannerButton}
+const SectionButton = styled(BannerButton)`
+  color: ${styles.colors.mainBlack};
+  ${styles.border({ color: `${styles.colors.mainBlack}` })};
+  &:hover {
+    background: ${styles.colors.mainBlack};
+    color: ${styles.colors.mainYellow};
+  }
+`
+
+export { BannerButton, SectionButton }
