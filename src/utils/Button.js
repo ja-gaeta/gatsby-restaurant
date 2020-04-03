@@ -1,6 +1,5 @@
 import styled from "styled-components"
 import { styles } from "../utils"
-import { colors } from "./styles"
 
 const BannerButton = styled.button`
   display: block;

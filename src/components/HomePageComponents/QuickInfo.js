@@ -10,10 +10,12 @@ const QuickInfo = () => {
       <Title message="let us tell you" title="our mission" />
       <QuickInfroWrapper>
         <p className="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eius
-          totam unde provident id voluptates, est cumque placeat nam. Sequi unde
-          commodi nam praesentium? Ducimus quidem dolorem accusamus doloremque
-          consequuntur.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          sit consequatur maxime architecto at, voluptas quisquam porro quo
+          expedita, fuga iure repudiandae doloribus id distinctio. Eaque
+          voluptates quibusdam autem quod dolor molestias ea eligendi tempore
+          consectetur deleniti? Quam nemo doloribus voluptatibus quas dolor
+          velit dignissimos distinctio, veniam ut dicta dolorem.
         </p>
         <Link to="/about/" style={{ textDecoration: "none" }}>
           <SectionButton style={{ margin: "2rem auto" }}>about</SectionButton>
