@@ -37,12 +37,13 @@ const ProductWrapper = styled.div`
     text-transform: uppercase;
   }
   .name {
-    color: ${styles.colors.mainYellow};
+    color: ${styles.colors.mainGrey};
     margin-top: 0.5rem;
   }
   .price {
     color: ${styles.colors.mainYellow};
     margin-top: 0.5rem;
+    font-size: 1.3rem;
   }
   .info {
     margin-top: 0.5rem;
