@@ -26,6 +26,7 @@ const Gallery = () => {
       query={GET_IMAGES}
       render={data => {
         const images = data.getImages.edges
+        const dishes = ["pizza", "fish", "steak"]
         return (
           <Section>
             <GalleryWrapper>
@@ -33,7 +34,7 @@ const Gallery = () => {
                 return (
                   <div key={index} className={`item item-${index + 1}`}>
                     <Img fluid={node.childImageSharp.fluid} />
-                    <p className="info">awesome pizza</p>
+                    <p className="info">awesome {dishes[index]}</p>
                   </div>
                 )
               })}
