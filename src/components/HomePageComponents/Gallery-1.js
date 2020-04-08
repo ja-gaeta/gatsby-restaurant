@@ -26,7 +26,7 @@ const Gallery = () => {
       query={GET_IMAGES}
       render={data => {
         const images = data.getImages.edges
-        const dishes = ["pizza", "fish", "steak"]
+        const dishes = ["pizza", "pork", "steak"]
         return (
           <Section>
             <GalleryWrapper>
